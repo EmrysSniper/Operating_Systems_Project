@@ -10,9 +10,9 @@ This project implements a comprehensive CPU scheduling simulator that demonstrat
 
 **Course:** Operating Systems  
 **Team Members:**
-- Member 1 - [Name] - [Email] - [GitHub Username]
+- Member 1 - Emmnauel Olayemi - olayememmanuel@gmail.com - [emryssniper]
 - Member 2 - [Name] - [Email] - [GitHub Username]
-- Member 3 - [Name] - [Email] - [GitHub Username]
+
 
 ---
 
