@@ -268,11 +268,10 @@ Possible extensions for extra credit:
 ## Support Materials Included
 
 1. **README.md**: Complete user guide
-2. **GETTING_STARTED.md**: Quick start instructions
-3. **DESIGN.md**: Technical architecture
-4. **Code Comments**: Extensive inline documentation
-5. **Test Suite**: Comprehensive testing
-6. **Makefile**: Professional build system
+2. **DESIGN.md**: Technical architecture
+3. **Code Comments**: Extensive inline documentation
+4. **Test Suite**: Comprehensive testing
+5. **Makefile**: Professional build system
 
 ## Success Indicators
 
