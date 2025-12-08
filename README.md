@@ -233,8 +233,6 @@ cpu-scheduler-simulator/
 │   └── test_scheduler.cpp
 ├── doc/                        # Documentation
 │   ├── DESIGN.md              # Design document
-│   ├── USER_MANUAL.md         # User manual
-│   └── PERFORMANCE.md         # Performance analysis
 ├── scripts/                    # Build and utility scripts
 │   └── run_benchmarks.sh
 ├── Makefile                    # Build configuration
