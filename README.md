@@ -322,7 +322,7 @@ System tests verify end-to-end functionality:
 2. **Multiple CPUs**: Single CPU simulation only
 3. **Process Creation**: No dynamic fork/spawn during execution
 4. **Memory Management**: Not integrated with memory scheduling
-5. **Real-time Constraints**: No hard/soft deadline support
+
 
 ### Workarounds
 - I/O: Can be simulated by adjusting burst times
