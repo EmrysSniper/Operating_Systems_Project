@@ -128,7 +128,7 @@ void Scheduler::displayResults() const {
     // Display individual process results
     std::cout << "Individual Process Metrics:\n";
     std::cout << std::string(80, '-') << "\n";
-    std::cout << std::left << std::setw(5) << "PID"
+    std::cout << std::left << std::setw(7) << "PID"
               << std::setw(12) << "Name"
               << std::setw(10) << "Arrival"
               << std::setw(10) << "Burst"
@@ -159,7 +159,7 @@ void Scheduler::displayResults() const {
     std::cout << "\n" << std::string(80, '-') << "\n";
     std::cout << "Aggregate Performance Metrics:\n";
     std::cout << std::string(80, '-') << "\n";
-    std::cout << std::fixed << std::setprecision(2);
+    std::cout << std::fixed << std::setprecision(4);
     std::cout << "Average Waiting Time:      " << std::setw(10) << metrics.averageWaitingTime << " time units\n";
     std::cout << "Average Turnaround Time:   " << std::setw(10) << metrics.averageTurnaroundTime << " time units\n";
     std::cout << "Average Response Time:     " << std::setw(10) << metrics.averageResponseTime << " time units\n";
