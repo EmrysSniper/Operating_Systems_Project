@@ -67,17 +67,17 @@ std::string Process::getStateString() const {
 }
 
 void Process::display() const {
-    std::cout << "Process " << std::setw(3) << pid 
-              << " (" << std::setw(8) << name << ")"
-              << " | Arrival: " << std::setw(3) << arrivalTime
-              << " | Burst: " << std::setw(3) << burstTime
-              << " | Priority: " << std::setw(2) << priority
+    std::cout << "Process " << std::setw(6) << pid 
+              << " (" << std::setw(4) << name << ")"
+              << " | Arrival: " << std::setw(6) << arrivalTime
+              << " | Burst: " << std::setw(6) << burstTime
+              << " | Priority: " << std::setw(4) << priority
               << " | State: " << std::setw(10) << getStateString();
     
     if (state == ProcessState::TERMINATED) {
-        std::cout << " | WT: " << std::setw(3) << waitingTime
-                  << " | TAT: " << std::setw(3) << turnaroundTime
-                  << " | RT: " << std::setw(3) << responseTime;
+        std::cout << " | WT: " << std::setw(5) << waitingTime
+                  << " | TAT: " << std::setw(5) << turnaroundTime
+                  << " | RT: " << std::setw(5) << responseTime;
     }
     
     std::cout << std::endl;
